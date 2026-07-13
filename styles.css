@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{font-family:Arial,sans-serif;margin:0;line-height:1.6;background:#f4f4f4;color:#333}
 header,footer{background:#003366;color:white;padding:15px;text-align:center}
 nav ul{list-style:none;padding:0}
@@ -14,6 +15,10 @@ section{padding:20px}
 }
 
 html, body {
+=======
+html,
+body {
+>>>>>>> dac3081 (Improve TechSav website pages and add service interactions)
     height: 100%;
     margin: 0;
 }
@@ -23,17 +28,116 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
+=======
+    line-height: 1.6;
+>>>>>>> dac3081 (Improve TechSav website pages and add service interactions)
     background: #f4f4f4;
     color: #333;
 }
 
+<<<<<<< HEAD
 main, section {
     flex: 1;
 }
 
+=======
+header,
+footer {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main,
+section {
+    flex: 1;
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#menuBtn {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #menuBtn {
+        display: block;
+        margin: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.show {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+    }
+}
+
+>>>>>>> dac3081 (Improve TechSav website pages and add service interactions)
 footer {
     background: #003366;
     color: white;
     text-align: center;
     padding: 15px;
+<<<<<<< HEAD
+=======
+}
+
+.service-card {
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.service-card:hover {
+    background: #e8f1ff;
+}
+
+.service-info {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.service-card.active .service-info {
+    display: block;
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+>>>>>>> dac3081 (Improve TechSav website pages and add service interactions)
 }
